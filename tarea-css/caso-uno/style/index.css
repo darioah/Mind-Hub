@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    position: absolute; 
+    color: rgb(12, 10, 3);
+    border-color: black; 
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    width: 100%;
+  
+}
+.Ducks{
+    width: 100%;
+    height: 30vh;
+}
+nav{
+    text-align: center;
+    background-color: brown;
+    padding: 0px 40px;   
+}
+
+.cover_centro {
+    padding: 20px;
+    color: aliceblue;
+    display: center;
+   
+   
+
+}
+.logo{
+width: 150px;
+right:50%;
+position: absolute;
+top: 23%;
+left: 75%;
+
+
+}
+
+
+.ss {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.ss p {  
+    font-size: 1rem;
+    z-index: 2;
+}
