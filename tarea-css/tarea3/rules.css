@@ -1,0 +1,14 @@
+*{
+ 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+  
+   height: 15vh;
+   text-align: center;
+}
+
+.subLista{
+    list-style-type: upper-latin;
+}

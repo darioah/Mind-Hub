@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/formulario.css">
+    
+    <title>Formulary</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Mighty Ducks Hockey League</h1>  
+      <nav>
+       <ul> 
+           <li class="boton" >Home</li>
+           <li class="boton2" ><a href="/modulo_1/About.html">About</a></li>
+           <li class="boton3" ><a href="/modulo_1/Contact.html">Contact</a></li>
+           <li class="boton3" ><a href="/modulo_1/rules.html">Rules</a></li>
+           <li class="boton3" ><a href="/modulo_1/game.html">Game</a></li>
+           <li class="boton3" ><a href="/modulo_1/formulario.html">Registrate</a></li>
+       </ul>     
+       </nav>
+     
+          <figure class="imagen">  
+          <img src="./asset/design1_image2.jpg" alt="">
+          </figure>
+          
+   
+      </header>
+      <main class="main"> 
+      <div class="container">  
+        <form class="contact" th:action="@{/guardarRegistro}" method="post">
+          <!-- ---------opcion1 ---------- -->
+          <h4>Registration Form</h4>
+          <fieldset>
+            <label for="">Firsta nmae</label>
+            <input placeholder="First Name" name="First Name " type="text" tabindex="1" required autofocus>
+          
+          
+            <input placeholder="Las Name" type="text" name="Las Name" tabindex="2" required autofocus>
+         
+            <input placeholder="Street Address" type="text" name="Street Address" tabindex="4" required>
+         
+            <input placeholder="City" type="text" name="city" tabindex="5" required>
+         
+            <input placeholder="Zip Code" type="text" name="city" tabindex="5" required>
+         
+            <label for="">Birth Date</label>
+            <input placeholder="Birth Date" type="date" name="city" tabindex="5" required>
+          
+        
+          <fieldset class="checkbox">
+            <div> 
+            <p> Gender: </p>
+            </div>
+            <label for="M">M</label>
+            <input  type="checkbox" name="M" id="M" tabindex="1" required>
+            <label for="F">F</label>
+            <input  type="checkbox" name="F" id="F" tabindex="2" required>
+            <label for="Otro">Otro</label>
+           <input  type="checkbox" name="Otro" id="Otro" tabindex="3" required>
+          </fieldset>
+           <!-- -----------3 -->
+          <fieldset class="checkbox"> 
+          <p> Grade : </p>
+          
+          
+          <label for="Pre-School">Pre-School</label>
+          <input type="checkbox" name="Pre-School" id="Pre-School" >
+          <label for="1st">1st</label>
+          <input type="checkbox" name="1st" id="1st" >
+          <label for="2st">2st</label>
+          <input type="checkbox" name="2st" id="2st" >
+          <label for="3st">3st</label>
+          <input type="checkbox" name="3st" id="3st" >
+          <label for="4st">4st</label>
+          <input type="checkbox" name="4st" id="4st" >
+          <label for="5st">5st</label>
+          <input type="checkbox" name="5st" id="5st"  >
+    
+          
+             
+    
+          </fieldset>
+          <section> 
+                   <!-- 4 -->
+            
+              <h3>Which elemntary school do you live near? </h3>
+             <p>Closest School:</p>
+              <fieldset class="checkbox_2">
+             <input type="checkbox" id="AJ_KAtzenebnaier" >
+             <label for="AJ_KAtzenebnaier">AJ KAtzenebnaier</label>
+             <input type="checkbox" id="Greenbay">
+             <label for="Greenbay" >Greenbay</label>
+             <input type="checkbox" id="Howard_A_Yeager">
+             <label for="Howard_A_Yeager">Howard A Yeager</label>
+             <input type="checkbox" id="Marjorie_P_Hart">
+             <label for="Marjorie_P_Hart">Marjorie P Hart</label>
+             <input type="checkbox" id="North_Elementary" >
+             <label for="North_Elementary">North Elementary</label>
+             <input type="checkbox" id="South_Elementary" >
+             <label for="South_Elementary">South Elementary</label>
+             </fieldset>
+    
+             <h3>What position(s) do you normally play?(check all that apply)</h3>
+             
+             <fieldset class="checkbox_2" > 
+             <input type="checkbox" id="Forward">
+             <label for="Forward">Forward</label>
+             <input type="checkbox" id="Defense">
+             <label for="Defense">Defense</label>
+             <input type="checkbox" id="Forward">
+             <label for="Forward">Forward</label>
+             <input type="checkbox" id="Forward">
+             <label for="Forward">Forward</label>
+    
+           </fieldset>  
+    
+             <fieldset class="checkbox">
+              
+              <h2>Uniform Size: </h2> 
+                 <input type="checkbox">
+                 <label for=" ">Youth Smal</label>
+                   
+                   <input type="checkbox">
+                    <label for=" ">Medium</label>
+                    <input type="checkbox">
+                  <label for="">Youth Medium </label>
+                 
+                  <input type="checkbox">
+                    <label for="">Large</label>
+                    <input type="checkbox">
+                    <label for="">Youth Large</label>
+                    <input type="checkbox">
+                    <label for="">Extra-Large</label>
+                    <input type="checkbox">
+                    <label for=" ">Small</label>
+            </fieldset>
+            </section>
+               
+            <h2>Permission to Play</h2>
+            <p>Permission to Play
+              I,the parent or guardian of the minor registrant,agree that the registrant andIwill abide by all the
+              rules of the Mighty Ducks Hockey League(MDHL).In recognizing the possibility of physical injury
+              associated with hockey and in consideration for the"League"accepting the registrant for its
+              hockey programs and activities,Ihereby release,discharge,and/or otherwise indemnify MDHL,
+              their employees and associated personnel and volunteers,including the facilities used for
+              practices and games,against any claim by or on behalf of the registrant asaresult of the
+              registrant's participation in the programand/orbeing transported to or from MDHL sponsored
+              activities,which transportation
+              By signing below,Iherebyagree andauthorizethe above.In addition,by signing below,lalso
+              acknowledge thatIhave read the cancellation policy and agree to its terms.
+              </p>
+    
+              <fieldset class="checkbox">
+                  <label for=" "> Parent/GuardianSignature: </label> 
+                <input type="text">
+                <label for=" "> Date: </label>
+                <input type="date">
+            </fieldset>
+           
+        </fieldset>
+    
+            <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Guardar <a    > </a>  </button>
+            </fieldset>
+ </form>
+       
+      </div>
+      </main>
+
+          <!-- <fieldset>
+            <p> Gender</p>
+            <label for="">M</label>
+            <input placeholder="Ingrese contraseña" type="checkbox" name="contraseña" tabindex="7" required>
+            <label for="">F</label>
+            <input placeholder="Ingrese contraseña" type="checkbox" name="contraseña" tabindex="7" required>
+            <label for="">Otro</label>
+           <input placeholder="Ingrese contraseña" type="checkbox" name="contraseña" tabindex="7" required>
+          </fieldset>
+          <fieldset> 
+          <p> Grade: </p>
+          <label for="">Pre-School</label>
+          
+          <label for="1st">1st</label>
+          <input type="checkbox" name="1st"  >
+          <label for="1st">2st</label>
+          <input type="checkbox" name="2st"  >
+          <label for="1st">3st</label>
+          <input type="checkbox" name="3st"  >
+          <label for="1st">4st</label>
+          <input type="checkbox" name="4st"  >
+          <label for="1st">5st</label>
+          <input type="checkbox" name="5st"  >
+
+          
+             
+
+          </fieldset>
+          <fieldset>
+              <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Guardar <a    > </a>  </button>
+          </fieldset>
+         <section> 
+
+          <fieldset>
+            <h3>Which elemntary school do you live near? </h3>
+           <p>Closest School:</p>
+
+           <input type="checkbox">
+           <label for="AJ KAtzenebnaier">AJ KAtzenebnaier</label>
+           <input type="checkbox">
+           <label for="Greenbay">Greenbay</label>
+           <input type="checkbox">
+           <label for="Howard A Yeager">Howard A Yeager</label>
+           <input type="checkbox">
+           <label for="AJ KAtzenebnaier">Marjorie P Hart</label>
+           <input type="checkbox">
+           <label for="North Elementary">North Elementary</label>
+           <input type="checkbox">
+           <label for="South Elementary">South Elementary</label>
+
+           <h3>What position(s) do you normally play?(check all that apply)</h3>
+           <input type="checkbox">
+           <label for="Forward">Forward</label>
+           <input type="checkbox">
+           <label for="Defense">Defense</label>
+           <input type="checkbox">
+           <label for="Forward">Forward</label>
+           <input type="checkbox">
+           <label for="Forward">Forward</label>
+
+
+
+
+
+          </fieldset>
+          </section>
+
+        </form>
+         
+        <h2>Permission to Play</h2>
+        <p>Permission to Play
+          I,the parent or guardian of the minor registrant,agree that the registrant andIwill abide by all the
+          rules of the Mighty Ducks Hockey League(MDHL).In recognizing the possibility of physical injury
+          associated with hockey and in consideration for the"League"accepting the registrant for its
+          hockey programs and activities,Ihereby release,discharge,and/or otherwise indemnify MDHL,
+          their employees and associated personnel and volunteers,including the facilities used for
+          practices and games,against any claim by or on behalf of the registrant asaresult of the
+          registrant's participation in the programand/orbeing transported to or from MDHL sponsored
+          activities,which transportation
+          By signing below,Iherebyagree andauthorizethe above.In addition,by signing below,lalso
+          acknowledge thatIhave read the cancellation policy and agree to its terms.
+          </p>
+          <fieldset> 
+            Parent/GuardianSignature: 
+          Date:
+        </fieldset> -->
+
+
+        <!-- ---------- opcion 2 ------------ -->
+     
+
+       
+</body>
+</html>

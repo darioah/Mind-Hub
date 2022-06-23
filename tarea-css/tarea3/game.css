@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* titulo */
+header h1{
+    text-align: center;
+    padding: 15px;
+} 
+header{
+    /* text-align: center; */
+    color: aliceblue;
+    height: 30vh;
+    background-color: #321232;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.cover{
+   width: 25%;
+  
+}
+/* inicio del nav */
+nav{
+    top: 8%;
+    position: absolute;
+    padding: 0px 40px;
+    right: 10px;
+}
+nav ul {
+    display: flex;
+    list-style: none;  
+    padding: 12px 50px;
+    justify-content: end;
+    
+}
+li{
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(76, 214, 117);
+    
+    
+
+}
+
+.boton2 {
+    background-color: aqua;
+    
+}
+.boton3 {
+    background-color: aqua;
+}
+
+/* FIN DEL NAV */
+main{
+         
+    padding-left: 30%;
+       
+}
+.lista{
+display: flex;
+justify-content: space-between;
+background-color: rgb(140, 241, 45);
+}
+
+table, tr, td {
+    text-align: center;
+    border: 1px solid ;
+    border-collapse: collapse ;
+    padding: 10px; 
+}
+
+.info{
+    background-color: aquamarine;
+    flex-direction: column;
+    display: flex;
+    padding : 10% 0% 5% 10%; 
+    /* jugando con css 10% 15%  */
+}
+.contacto{
+padding-top: 15px;
+display: flex;
+justify-content: space-between;
+}
