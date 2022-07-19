@@ -114,3 +114,26 @@ td {
     display: flex;
     justify-content: space-between;
 }
+form{
+    background-color: #d8ef26;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+     margin-left: 15%;
+  
+}
+fieldset{
+    background-color: #123223;
+    margin-top: 1%;
+    width:59%;
+    color: #c9cbb8;
+}
+.checkbox {
+    text-align: center;
+    margin :15%;
+
+}
+.checkbox{
+    margin :15%;
+}
